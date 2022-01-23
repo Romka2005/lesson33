@@ -113,7 +113,106 @@
 // alert(`L = ${l}; D = ${d}`);
 // console.log(`L = ${l}; D = ${d}`);
 
+//Beginner_16
+// let x = +prompt("Введите точку x");
+// let x2 = +prompt("Введите точку x2");
+// let o = ((x-x2)**2)**(1/2);
+// alert(`O: ${o}`);
+// console.log(`O: ${o}`);
 
+//Beginner_17
+// let a = +prompt("Введите точку A");
+// let b = +prompt("Введите точку B");
+// let c = +prompt("Введите точку C");
+// let ac = ((a-c)**2)**(1/2);
+// let bc = ((b-c)**2)**(1/2);
+// let sum = ac + bc;
+// alert(`AC = ${ac}; BC = ${bc}; Sum = ${sum}`);
+// console.log(`AC = ${ac}; BC = ${bc}; Sum = ${sum}`);
+
+//Beginner_18
+// let a = +prompt("Введите точку A");
+// let b = +prompt("Введите точку B");
+// let c = +prompt("Введите точку C");
+// let ac = ((a-c)**2)**(1/2);
+// let bc = ((c-b)**2)**(1/2);
+// let proz = ac * bc;
+// alert(`AC = ${ac}; BC = ${bc}; Proz = ${proz}`);
+// console.log(`AC = ${ac}; BC = ${bc}; Proz = ${proz}`);
+
+//Beginner_19
+// let x1 = +prompt("Введите первую точку координат x1");
+// let y1 = +prompt("Введите первую точку координат y1");
+// let x2 = +prompt("Введите вторую точку координат x2");
+// let y2 = +prompt("Введите вторую точку координат y2");
+// // x1 = 2
+// // x2 = 4
+// // y1 = 3
+// // y2 = 6
+// // a = 2
+// // b = 3
+// // p = 10
+// // s = 6
+// let a = ((x1-x2)**2)**(1/2);
+// let b = ((y1-y2)**2)**(1/2);
+// let p = 2*(a+b);
+// let s = a*b;
+// alert(`P = ${p}; S = ${s}`);
+// console.log(`P = ${p}; S = ${s}`);
+
+//Beginner_20
+// let x1 = +prompt("Введите первую точку координат x1");
+// let y1 = +prompt("Введите первую точку координат y1");
+// let x2 = +prompt("Введите вторую точку координат x2");
+// let y2 = +prompt("Введите вторую точку координат y2");
+// let rast = ((x2-x1)**2+(y2-y1)**2)**1/2;
+// alert(`${rast}`);
+// console.log(`${rast}`);
+
+//Beginner_21
+// let x1 = +prompt("Введите первую точку координат x1");
+// let y1 = +prompt("Введите первую точку координат y1");
+// let x2 = +prompt("Введите вторую точку координат x2");
+// let y2 = +prompt("Введите вторую точку координат y2");
+// let x3 = +prompt("Введите третью точку координат x3");
+// let y3 = +prompt("Введите третью точку координат y3");
+// let a = ((x2-x1)**2+(y2-y1)**2)**1/2;
+// let b = ((x3-x2)**2+(y3-y2)**2)**1/2;
+// let c = ((x1-x3)**2+(y1-y3)**2)**1/2;
+// let p = a+b+c;
+// let pol = (a+b+c)/2;
+// let s = (pol*(pol-a)*(pol-b)*(pol-c))**1/2;
+// alert(`P = ${p}; S = ${s}`);
+// console.log(`P = ${p}; S = ${s}`);
+
+//Beginner_22
+// let a = +prompt("Введите A"); //2
+// let b = +prompt("Введите B"); //6
+// a += b;  //8
+// b = a - b; // 2
+// a -= b; //6
+// alert(`A = ${a}; B = ${b}`);
+// console.log(`A = ${a}; B = ${b}`);
+
+//Beginner_23
+// let a = +prompt("Введите A"); //2
+// let b = +prompt("Введите B"); //6
+// let c = +prompt("Введите C"); //3
+// a=a+b+c; //11
+// b=a-b-c; //2
+// c=a-b-c; //6
+// a=a-b-c; //3
+// alert(`A = ${a}; B = ${b}; C = ${c}`);
+
+//Beginner_24
+// let a = +prompt("Введите A"); //2
+// let b = +prompt("Введите B"); //6
+// let c = +prompt("Введите C"); //3
+// a=a+b+c; //11
+// c=a-b-c; //2
+// b=a-b-c; //3
+// a=a-b-c; //6
+// alert(`A = ${a}; B = ${b}; C = ${c}`);
 
 //Beginner_25
 // let x = +prompt("Введите значение x");
@@ -144,3 +243,4 @@
 // let A15 = A**15;
 // alert(`A2 = ${A2};  A4 = ${A3}; A5 = ${A5}; A10 = ${A10}; A15 = ${A15}`)
 // console.log(`A2 = ${A2};  A4 = ${A3}; A5 = ${A5}; A10 = ${A10}; A15 = ${A15}`)
+
